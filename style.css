@@ -117,7 +117,7 @@ input#new-task {
   font-size: 18px;
   width: 226px;
 }
-.task-item >    input[type="text"] {
+.task-item > input[type="text"] {
   width: 226px;
 }
 button.delete img {
@@ -137,14 +137,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul .task-item input[type=text] {
-  display:none;
+  display: none;
 }
 
 ul .task-item.editMode input[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 ul .task-item.editMode label {
-  display:none;
+  display: none;
 }
